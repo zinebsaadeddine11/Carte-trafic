@@ -13,7 +13,9 @@ Ce projet convertit des données statiques de capteurs de trafic depuis une base
 ---
 
 ## Comment Lancer ce Projet
+## Données
 
+Les données utilisées proviennent du fichier `PeMSD7_M_Station_Info (1).csv`.
 ### Prérequis
 1. **MongoDB :** Vous devez avoir MongoDB en cours d'exécution localement sur le port `27017` avec une base de données nommée `Trafic` contenant une collection appelée `sensors`.
 2. **Docker Desktop :** Assurez-vous que Docker Desktop est installé et en cours d'exécution.
